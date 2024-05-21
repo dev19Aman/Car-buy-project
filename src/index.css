@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+*{
+  font-family: Inter;
+}
+
+/* SCROLLBAR */
+.scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 5px;
+    /* max-height: 10%; height: 10%; */
+    margin-left: 10px;
+    margin: 10px 0;
+    right: 10px;
+  } 
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: black;
+margin: 10px 0;
+  }
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #FDB82A;
+    border-radius: 100vh;
+    height: 5px; 
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #c0a0b9;
+  }
+  .scrollbar::-webkit-scrollbar-track-piece {
+    height: 2px;
+  }
+
+
+  
