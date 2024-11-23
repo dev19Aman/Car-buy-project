@@ -5,12 +5,10 @@ Install the App
 With npm:
 
 bash
-Copy code
 npm install
 Or with yarn:
 
 bash
-Copy code
 yarn install
 Run the App
 Start the development server:
